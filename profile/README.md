@@ -66,6 +66,10 @@ Planned production persistence uses Supabase so session data remains available a
 3. HoloLens configured to upload to the public backend upload endpoint.
 4. Dashboard configured to read sessions from the same backend API base URL.
 
+## High-Level Architecture
+<img width="1325" height="575" alt="image" src="https://github.com/user-attachments/assets/5f99ae9d-b420-4a63-9ce5-602b42aa9490" />
+
+
 ## Note for Examiners and Demonstrations
 
 This system is designed for practical in-person demonstration workflows, including constrained physical spaces, via a controlled test-completion path while maintaining the full data capture and analytics pipeline.

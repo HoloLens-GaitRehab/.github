@@ -1,4 +1,4 @@
-# Gait Rehabilitation Analytics FYP
+# HoloGaitAR
 
 This project is a Final Year Project (FYP) focused on a mixed reality gait rehabilitation workflow for clinical-style demonstrations and data-driven analysis.
 

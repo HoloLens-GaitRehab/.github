@@ -69,9 +69,8 @@ Planned production persistence uses Supabase so session data remains available a
 3. HoloLens configured to upload to the public backend upload endpoint.
 4. Dashboard configured to read sessions from the same backend API base URL.
 
-## High-Level Architecture
-<img width="1325" height="575" alt="image" src="https://github.com/user-attachments/assets/5f99ae9d-b420-4a63-9ce5-602b42aa9490" />
-
+## Poster
+<img width="3179" height="4494" alt="Poster" src="https://github.com/user-attachments/assets/4aaf5f28-f1e7-4837-930f-3e17a0f18260" />
 
 ## Note for Examiners and Demonstrations
 

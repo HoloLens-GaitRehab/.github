@@ -2,6 +2,9 @@
 
 This project is a Final Year Project (FYP) focused on a mixed reality gait rehabilitation workflow for clinical-style demonstrations and data-driven analysis.
 
+## Screencast Demo
+[![HoloGaitAR Screencast](https://img.youtube.com/vi/zimeawdWbjk/0.jpg)](https://youtu.be/zimeawdWbjk)
+
 The system combines:
 1. A HoloLens rehabilitation application that guides and monitors a walking session.
 2. A web analytics dashboard that receives uploaded session CSV data and visualizes clinical metrics.

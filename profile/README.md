@@ -1,6 +1,7 @@
 # HoloGaitAR
+HoloGaitAR is an innovative mixed reality system designed to assist with physical therapy and gait (walking) rehabilitation. Utilizing the Microsoft HoloLens, the application guides patients through straight-line walking exercises using visual and auditory cues, while simultaneously tracking their physical movements. The collected data is seamlessly uploaded to a companion web dashboard, allowing clinicians and researchers to visualize key performance metrics—such as pace, off-course drift, and path adherence—to effectively monitor recovery progress and analyze walking patterns.
 
-This project is a Final Year Project (FYP) focused on a mixed reality gait rehabilitation workflow for clinical-style demonstrations and data-driven analysis.
+This project was made as a 4th year Final Year Project (FYP) for my Software Development course in ATU.
 
 ## Screencast Demo
 [Watch the HoloGaitAR Screencast here](https://youtu.be/zimeawdWbjk)

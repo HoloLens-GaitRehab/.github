@@ -29,6 +29,7 @@ Planned production persistence uses Supabase so session data remains available a
 | --- | --- |
 | [HoloLens-GaitRehab/GaitRehabFYP](https://github.com/HoloLens-GaitRehab/GaitRehabFYP) | Unity + MRTK HoloLens rehabilitation application for session guidance, metrics capture, and CSV upload triggers. |
 | [HoloLens-GaitRehab/GaitRehab_CSV_Viewer](https://github.com/HoloLens-GaitRehab/GaitRehab_CSV_Viewer) | React + TypeScript analytics dashboard and Node.js backend API for ingesting and visualizing gait session CSV data. |
+| [HoloLens-GaitRehab/.github](https://github.com/HoloLens-GaitRehab/.github) | Dissertation and Poster|
 
 ## Project Objectives
 

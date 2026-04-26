@@ -67,10 +67,22 @@ Planned production persistence uses Supabase so session data remains available a
 
 ## Deployment Summary
 
-1. Frontend hosted as a static site.
-2. Backend hosted as a web service.
-3. HoloLens configured to upload to the public backend upload endpoint.
-4. Dashboard configured to read sessions from the same backend API base URL.
+_(Note: This is a high-level deployment summary, locate the README on each of the seperate repositories to find exact, detailed deployment steps)_
+
+**Deploying the GaitAnalytics Web Platform**
+1. Clone the GaitAnalytics repository.
+2. Ensure you have Node.js (v18+) and npm installed on your machine.
+3. Backend: Navigate to the backend/ directory, install dependencies (npm install), configure your .env file for your chosen storage mode (Supabase or local filesystem), and start the API (npm run dev).
+4. Frontend: Navigate to the project root, install dependencies (npm install), and start the React dashboard (npm run dev).
+5. Open the dashboard in your browser and configure the backend URL to ensure it is ready to receive and display session data.
+
+**Deploying the GaitRehabFYP HoloLens Application**
+1. Clone the GaitRehabFYP repository.
+2. Open the project in Unity 2019.4.40f1 (ensure the Universal Windows Platform build support module is installed).
+3. (Optional) If integrating with the analytics platform, update the backend upload URL in the StatsUiToggle component in the Unity Inspector.
+4. Build the project for the Universal Windows Platform (UWP) via Unity's Build Settings.
+5. Open the generated solution in Visual Studio 2022, set the target to Release / ARM64, and deploy it to your HoloLens 2 device.
+6. Launch the application on the HoloLens to begin a guided gait session. If enabled, session metrics will automatically upload to the GaitAnalytics dashboard upon completion.
 
 ## Poster
 <img width="3179" height="4494" alt="Poster" src="https://github.com/user-attachments/assets/4aaf5f28-f1e7-4837-930f-3e17a0f18260" />
